@@ -1,0 +1,66 @@
+{
+    "wrapper" : {
+        "title" : "DATA ENTRY FORM",
+        "class" : "wrapper",
+        "form" : {
+            "class" : "form",
+            "item" : [
+                {
+                    "elem" : "input",
+                    "name" : "FirstName",
+                    "attribute" : {
+                        "type" : "text",
+                        "placeholder" : "Ivan",
+                        "class": "",
+                        "mask" : "",
+                        "required" : true
+                    }
+                },
+                {
+                    "elem" : "input",
+                    "name" : "LastName",
+                    "attribute" : {
+                        "type" : "text",
+                        "placeholder" : "Ivanov",
+                        "class": "",
+                        "mask" : "",
+                        "required" : "required"
+                    }
+                },
+                {
+                    "elem" : "input",
+                    "name" : "Email",
+                    "attribute" : {
+                        "type" : "email",
+                        "placeholder" : "",
+                        "class": "",
+                        "mask" : "",
+                        "required" : "required"
+                    }
+                },
+                {
+                    "elem" : "input",
+                    "name" : "Phone",
+                    "attribute" : {
+                        "type" : "tel",
+                        "placeholder" : "",
+                        "class": "",
+                        "mask" : "",
+                        "required" : "required"
+                    }
+                },
+                {
+                    "elem" : "input",
+                    "name" : "",
+                    "attribute" : {
+                        "type" : "submit",
+                        "placeholder" : "",
+                        "class": "",
+                        "mask" : "",
+                        "required" : "required"
+                    }
+                }
+            ]
+        }
+    }
+}

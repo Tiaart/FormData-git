@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 300px;
+    height: max-content;
+    margin: 0 auto;
+    border: 1px solid red;
+    text-align: center;
+    padding: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form__label--button {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+}
